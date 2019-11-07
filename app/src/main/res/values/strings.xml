@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Szimpla Bar</string>
+    <string name="title_activity_cadastrousuario">Cadastro Usuario</string>
+    <string name="card_pio">CARDÁPIO</string>
+</resources>

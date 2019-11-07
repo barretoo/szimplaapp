@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="102dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutProdutoCardapio"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="0,1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="0dp"
+                    android:layout_gravity="left"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/txtNomeProdutoCardapio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NOME_PRODUTOOO"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/Preto"/>
+
+                    <TextView
+                        android:id="@+id/txtDescricaoProdutoCardapio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="DESCRICAO_PRODUTO"
+                        android:textSize="12dp"
+                        android:textColor="@color/Preto"/>
+
+                    <TextView
+                        android:id="@+id/txtPrecoProdutoCardapio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRECO_PRODUTO"
+                        android:textSize="14dp"
+                        android:textColor="@color/Preto"/>
+
+                    <TextView
+                        android:id="@+id/txtQtdadeProdutoCardapio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="QTDADE_PRODUTO"
+                        android:textSize="12dp"
+                        android:textColor="@color/Preto"/>
+
+
+                </LinearLayout>
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/numberButom"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    app:backGroundColor="@color/RoxoSzimpla"
+                    app:initialNumber="0"
+                    app:textColor="@color/Branco"
+                    app:textSize="10dp"
+
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="fill_parent"
+
+        android:background="@color/RoxoSzimpla"
+        android:focusable="false"
+        android:layout_height="1dp"
+        android:layout_margin="1dp"
+        />
+
+
+</LinearLayout>

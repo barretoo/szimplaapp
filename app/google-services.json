@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791732702287",
+    "firebase_url": "https://szimplaingressos.firebaseio.com",
+    "project_id": "szimplaingressos",
+    "storage_bucket": "szimplaingressos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791732702287:android:07c5926f1a637ca3",
+        "android_client_info": {
+          "package_name": "com.example.szimplaingressos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791732702287-j3o1to4j31omveea31bjajjvr2j3ts7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.szimplaingressos",
+            "certificate_hash": "9b32c70bf67ea9ec5fff3d8a778bde37dc202bea"
+          }
+        },
+        {
+          "client_id": "791732702287-gjckujqdh7umgls1mit9k7rdjfsabg2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS4b1Gx_HAUT0dHCkaVSWfGxSmr6bQRBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791732702287-gjckujqdh7umgls1mit9k7rdjfsabg2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
